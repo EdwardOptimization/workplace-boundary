@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the public workplace-skills package."""
+"""Validate the public workplace-boundary package."""
 
 from __future__ import annotations
 
@@ -113,7 +113,7 @@ def main() -> int:
     check_forbidden_text()
     check_skill_frontmatter()
     check_eval_json()
-    print("OK: public workplace-skills package validated")
+    print("OK: public workplace-boundary package validated")
     return 0
 
 
