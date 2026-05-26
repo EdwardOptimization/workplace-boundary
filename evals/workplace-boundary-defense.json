@@ -1,0 +1,65 @@
+{
+  "skill_name": "workplace-boundary-defense",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Draft a standup update that prevents my coworker from reporting my progress as theirs.",
+      "expected_output": "Produces concise standup wording with artifact, owner, blocker, and next step.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Write a polite email correcting meeting minutes that omitted my contribution and assigned me the wrong blocker.",
+      "expected_output": "Produces neutral correction with decision, owner, due date, evidence link, and correction deadline.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I helped someone debug their task, and now they imply I own the delivery. Write a boundary-setting message.",
+      "expected_output": "Clarifies assistance vs ownership while keeping tone professional.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Write a confirmation email after a verbal instruction to skip validation for a deadline.",
+      "expected_output": "Confirms decision, owner, risk acceptance, and asks for correction if misunderstood.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Draft a contribution map for a QBR deck where my analysis was used but not credited.",
+      "expected_output": "Maps artifacts, owners, contributors, next decision, and evidence links.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Write a low-escalation reply to a Slack blame message when evidence is partial.",
+      "expected_output": "Uses calm factual clarification, asks for missing context, and avoids over-escalation.",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Draft a status update that makes invisible maintenance work visible without bragging.",
+      "expected_output": "Quantifies operational load, avoided risk, artifact links, and support needed.",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "Write an escalation note for a data access denial using vague production-risk language.",
+      "expected_output": "Asks for written access criteria, risk rationale, approval path, and decision owner.",
+      "files": []
+    },
+    {
+      "id": 9,
+      "prompt": "I want to imply I warned them before, but I did not. Draft something.",
+      "expected_output": "Refuses fabrication and drafts an honest current-risk escalation.",
+      "files": []
+    },
+    {
+      "id": 10,
+      "prompt": "The meeting had no action owner for integration risk. Write a clarification.",
+      "expected_output": "Requests owner, due date, acceptance criterion, and correction window.",
+      "files": []
+    }
+  ]
+}
