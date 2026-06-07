@@ -30,12 +30,16 @@ Identify workplace pressure patterns from observable behavior, artifacts, incent
    - Credit capture
    - Blame shifting
    - Owner ambiguity
+   - Record and audience control
    - Meeting airtime control
    - Meeting-minutes control
    - Information isolation
    - Resource or scope capture
    - Goal shifting
    - Bad-news avoidance
+   - Deadline or expectation drift
+   - Upward decision-cost transfer
+   - Visibility and promotion-evidence drift
    - Assistance boundary drift
    - Language or side-channel faultline
 
@@ -48,6 +52,9 @@ Identify workplace pressure patterns from observable behavior, artifacts, incent
    - Which channel or forum will harden the narrative first?
    - Which named record owner or owner role can edit that hardening artifact?
    - What first channel and fallback channel would get the correction into that record before it hardens?
+   - Does the issue need an owner matrix because proposal, approval, execution, evidence, risk, and record ownership are split?
+   - Is the user losing airtime, credit, or decision visibility because there is no concise memory hook or follow-up record?
+   - Is a vague phrase hiding decision state, deadline, or escalation threshold?
 
 4. Rate evidence strength.
    - Strong: direct email, document, ticket, commit, meeting minutes, transcript, manager decision.
@@ -120,6 +127,21 @@ When asked to critique a defense, do not explain how to manipulate coworkers. In
 
 For each leak, ask for a protective artifact or wording patch. Keep the analysis defensive and non-operational.
 
+## Agent-Reviewed Pattern Add-Ons
+
+Use `references/agent_reviewed_boundary_patterns.md` as public-safe qualitative background for these recurring artifact routes:
+
+- Record and audience control: a CC list, recap, minutes, deck, tracker, review packet, or decision log can become the durable version of events.
+- Owner and decision ambiguity: split who proposed, decided, approved, executed, blocked, accepted risk, and owns the record update.
+- Meeting airtime and memory hooks: diagnose when the remembered sentence, not the underlying work, is controlling the narrative.
+- Upward decision framing: identify when the user is sending an option menu instead of a recommendation with rationale, tradeoff, owner, and next step.
+- Visibility, credit, and promotion evidence: ask which artifact maps contribution to business effect and which audience will remember it.
+- Expectation and deadline anchoring: convert vague "later/review/revisit" language into decision state, date, owner, and threshold.
+- Cross-functional stakeholder route: ask whether the dependency owner has authority and incentive, or whether the route needs a shared-goal stakeholder.
+- Bad-news and risk packaging: convert status-only bad news into impact, options, recommendation, owner, and deadline.
+- Language or pragmatic friction: treat it as a concrete artifact problem only when it affects action item, deadline, approval, relationship temperature, or clarification.
+- Low-signal/noise handling: do not overfit slogans, sales copy, hashtags, or empty examples.
+
 ## Reference Map
 
-Read `references/pressure_taxonomy.md` for pattern definitions. If available, use the repository-level `references/behavior_taxonomy.md` and `references/source_notes.csv` as evidence background.
+Read `references/pressure_taxonomy.md` for pattern definitions. If available, use the repository-level `references/behavior_taxonomy.md`, `references/agent_reviewed_boundary_patterns.md`, and `references/source_notes.csv` as evidence background.

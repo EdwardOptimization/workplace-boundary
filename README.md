@@ -17,6 +17,8 @@ This public repository contains two defensive agent skills:
 
 During development, the skills were hardened with internal agent-based adversarial simulations of realistic workplace scenarios. The internal Red Team components, prompts, scripts, traces, and run artifacts are intentionally not included in this public repository.
 
+The latest public version also includes a source-free distillation of private agent-reviewed workplace notes. Only abstract defensive boundary patterns are published; raw notes, titles, authors, quotes, paths, review data, and internal test materials are excluded.
+
 ## Install
 
 ```bash

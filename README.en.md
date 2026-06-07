@@ -53,6 +53,8 @@ Only the defensive skills are public.
 
 The internal Red Team components, prompts, scripts, traces, scoring records, and any material that could be reused as an attack manual are not included in this public repository.
 
+The latest public version also includes a source-free distillation of private agent-reviewed workplace notes. Only abstract defensive boundary patterns are published; raw notes, titles, authors, quotes, paths, review data, and internal test materials are excluded.
+
 ## Why The Red Team Is Not Public
 
 The goal is to help people protect themselves, not teach people how to suppress coworkers.

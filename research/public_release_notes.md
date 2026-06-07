@@ -9,6 +9,8 @@ This public release keeps the defensive parts of the project:
 
 The public package excludes private evaluation components, raw search corpora, and any internal-only test artifacts. The retained material focuses on behavior-only diagnosis, evidence discipline, boundary defense, source-of-truth correction, owner clarity, audience parity, and professional record repair.
 
+The latest public-safe update adds `references/agent_reviewed_boundary_patterns.md`, a source-free distillation of private agent-reviewed workplace-note analysis. It publishes only abstract defensive pattern clusters and excludes raw notes, titles, authors, quotes, paths, review rows, prompts, traces, and internal test materials.
+
 ## Validation Target
 
 The public validator enforces:

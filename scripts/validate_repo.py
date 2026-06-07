@@ -27,6 +27,7 @@ REQUIRED_FILES = [
     "examples/identity_rant_redirect.md",
     "examples/source_of_truth_correction.md",
     "examples/evidence_packet_addendum.md",
+    "references/agent_reviewed_boundary_patterns.md",
 ]
 
 PRIVATE_PATH_PARTS = [
@@ -43,6 +44,11 @@ PRIVATE_TEXT = [
     "attack" + "-surface",
     "attack " + "capability",
     "attack" + "_capability",
+    "red" + "book",
+    "Red" + "book",
+    "kimi" + "_cli",
+    "codex_subagent" + "_fallback",
+    "red" + "book-output-notes-details",
     "\u963f\u4e09",
     "\u4e09\u54e5",
 ]
@@ -107,12 +113,37 @@ def check_eval_json() -> None:
             fail(f"invalid JSON in {rel}: {exc}")
 
 
+def check_public_distillation() -> None:
+    rel = "references/agent_reviewed_boundary_patterns.md"
+    text = (ROOT / rel).read_text(encoding="utf-8")
+    required_terms = [
+        "Record And Audience Control",
+        "Owner And Decision Ambiguity",
+        "Meeting Airtime And Memory Hooks",
+        "Upward Decision Framing",
+        "Visibility, Credit, And Promotion Evidence",
+        "Low-Signal And Noise Handling",
+        "source-free",
+    ]
+    for term in required_terms:
+        if term not in text:
+            fail(f"{rel} missing {term}")
+    for skill_rel in [
+        "skills/workplace-pressure-patterns/SKILL.md",
+        "skills/workplace-boundary-defense/SKILL.md",
+    ]:
+        skill_text = (ROOT / skill_rel).read_text(encoding="utf-8")
+        if "agent_reviewed_boundary_patterns.md" not in skill_text:
+            fail(f"{skill_rel} does not reference agent_reviewed_boundary_patterns.md")
+
+
 def main() -> int:
     check_required_files()
     check_forbidden_paths()
     check_forbidden_text()
     check_skill_frontmatter()
     check_eval_json()
+    check_public_distillation()
     print("OK: public workplace-boundary package validated")
     return 0
 

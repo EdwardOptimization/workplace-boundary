@@ -252,6 +252,19 @@ Help users protect their work, contribution, responsibility boundaries, and prof
    - Client/vendor late-blame: internal tracker updates do not close the route. The controlling client deck or official review thread must contain the verified timeline, deadline status, remediation/delivery owner split, review-disposition or risk owner, and same-client-review receipt before the client review.
    - If the draft cannot satisfy the relevant family closure, switch to field-lock mode and explicitly say the current record must remain pending or not controlling until the closure ledger is complete.
 
+24. Apply agent-reviewed public boundary pattern add-ons when the case involves visible records, meeting memory, upward framing, credit, deadlines, cross-functional leverage, or pragmatic signal friction.
+   Use `references/agent_reviewed_boundary_patterns.md` as source-free qualitative background. It contains distilled patterns only; do not imply statistical proof, identity causality, or access to private source material.
+   - Record and audience control: put source-of-truth artifact, record owner, same-audience route, deadline, and fallback addendum inside the draft.
+   - Owner and decision ambiguity: split proposed, approved, executed, reviewed, blocked, accepted-risk, evidence, and record-update owners.
+   - Meeting airtime and memory hooks: produce both a concise meeting line and a same-thread recap.
+   - Upward decision framing: convert option menus into recommendation, rationale, tradeoff, owner, and next step.
+   - Visibility, credit, and promotion evidence: map contribution to artifact, artifact to business effect, and business effect to reviewer or stakeholder audience while keeping team metrics non-exclusive.
+   - Expectation and deadline anchoring: convert vague follow-up language into state, date, owner, and escalation threshold.
+   - Cross-functional stakeholder route: route blocked dependencies through legitimate shared objectives and decision rights, not personal pressure or blame.
+   - Client, bad news, and risk packaging: state impact, options, recommendation, owner, needed decision, and next deadline.
+   - Language or pragmatic friction: use neutral confirmation, owner check, deadline check, recap, and clarification instead of treating communication difficulty as identity weakness.
+   - Low-signal/noise handling: if the user's input lacks a concrete artifact, ask for the record, forum, date, and exact wording before drafting a correction.
+
 ## Output Format
 
 Use this structure:
@@ -798,4 +811,4 @@ Please keep [record] marked as pending until the owner matrix above is complete 
 
 ## Reference Map
 
-Read `references/defense_playbook.md` for common defense plays. If available, use the repository-level `references/behavior_taxonomy.md` and `references/source_notes.csv` as evidence background.
+Read `references/defense_playbook.md` for common defense plays. If available, use the repository-level `references/behavior_taxonomy.md`, `references/agent_reviewed_boundary_patterns.md`, and `references/source_notes.csv` as evidence background.
